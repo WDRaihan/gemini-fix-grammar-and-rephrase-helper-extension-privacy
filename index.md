@@ -1,28 +1,56 @@
-Privacy Policy for Gemini Grammar & Rephrase Helper
-Last Updated: July 20, 2025
+# Privacy Policy for Gemini Grammar & Rephrase Helper
+**Effective Date:** October 16, 2026  
+**Last Updated:** October 16, 2026
 
-This Privacy Policy describes how the "Gemini Grammar & Rephrase Helper" Chrome Extension ("the Extension") handles your information.
+This Privacy Policy describes how the **Gemini Grammar & Rephrase Helper** browser extension ("the Extension") handles and protects your information.
 
-1. No Personal Data Collection
-We, the developers of the Extension, do not collect, store, or transmit any of your personal information. Your privacy is paramount.
+Your privacy is paramount. **We, the developers of the Extension, do not collect, sell, monetize, or store your personal text, keystrokes, or browsing history.**
 
-2. Information Handled by the Extension
-The Extension handles two types of information locally on your computer:
+---
 
-Selected Text: The text you highlight on a webpage to be corrected or rephrased.
+### 1. Information Handled by the Extension
 
-Your Gemini API Key: The API key you provide in the Extension's settings.
+The Extension handles the following information strictly to provide writing assistance:
 
-3. How Your Information Is Used
-Selected Text: The text you select is sent directly to the Google Gemini API for the sole purpose of generating grammatical corrections and rephrasing suggestions. This text is never sent to our servers, and we do not see or store it. Your use of the Google Gemini API is subject to Google's Privacy Policy.
+* **Text for Grammar Check & Rephrasing:**  
+  * **When using Chrome Built-in AI (Gemini Nano):** Text processing runs **100% locally on your machine**. No text, keystrokes, or data are transmitted over the internet.
+  * **When using Gemini Cloud API:** The selected text or typed snippet is sent directly via encrypted HTTPS from your browser to Google’s official Gemini API servers (`generativelanguage.googleapis.com`). We do not operate an intermediary server, and we never view, intercept, or store this text. Processing is subject to [Google's Privacy Policy](https://policies.google.com/privacy).
 
-Your Gemini API Key: Your API key is stored securely using Chrome's local storage (chrome.storage.sync) on your computer. It is used only to authenticate your requests with the Google Gemini API and is never sent to our servers.
+* **Your Gemini API Key:**  
+  If you provide your own Google Gemini API key, it is saved securely on your device using Chrome’s storage (`chrome.storage.sync`). It is used exclusively to authenticate requests directly with Google's API and is never sent to our servers.
 
-4. Third-Party Services
-The Extension relies on the Google Gemini API to provide its core functionality. We are not responsible for the data practices of Google. We encourage you to review their privacy policy to understand how they handle the text you send them.
+* **Rephrase History Log:**  
+  The extension saves your recent rephrasings and grammar fixes in local storage (`chrome.storage.local`) on your computer. This history stays exclusively on your device, is never uploaded to any cloud server, and can be cleared by you at any time.
 
-5. Changes to This Privacy Policy
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+* **License & Pro Verification (Freemius):**  
+  If you activate a Pro license, the Extension communicates with our authorized reseller and Merchant of Record, **Freemius, Inc.** (`api.freemius.com`), solely to validate your license key and plan status. All payment processing is handled securely by Freemius under the [Freemius Privacy Policy](https://freemius.com/privacy/).
 
-6. Contact Us
-If you have any questions about this Privacy Policy, please contact us at: [Your Email Address Here]
+---
+
+### 2. Information We DO NOT Collect
+
+* We **DO NOT** track your browsing history or track websites you visit.
+* We **DO NOT** log or store keystrokes outside of user-requested grammar checks.
+* We **DO NOT** collect personal information such as your name, address, or phone number.
+* We **DO NOT** sell, rent, or transfer any user data to data brokers, advertisers, or AI training datasets.
+
+---
+
+### 3. Google Chrome Web Store Policy Compliance
+
+* **Single Purpose:** The Extension requests only the permissions strictly required to provide inline grammar checking, style transformations, and rephrasing assistance.
+* **Limited Use:** All data handled by this Extension is used solely to provide user-facing features and is never repurposed.
+
+---
+
+### 4. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date.
+
+---
+
+### 5. Contact Us
+
+If you have any questions or concerns about this Privacy Policy, please contact us at:
+* **Support Email:** support@ggrh.atplugins.com
+* **Developer:** WDRaihan
